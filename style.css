@@ -109,3 +109,36 @@ header {
   height: 50px;
   width: 50px;
 }
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 15px;
+  z-index: 1;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-right: 30px;
+}
+
+header .logo img{
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
