@@ -66,3 +66,20 @@ header {
 /* 
  * YOUR CSS:
  */
+
+ #about div {
+  display: flex;
+  margin: 0 15px;
+ }
+
+ #about p {
+  flex: 2;
+ }
+
+ #aboutmockup {
+  flex: 1;
+ }
+
+ #about {
+  background-color: rgb(220, 220, 212);
+ }
