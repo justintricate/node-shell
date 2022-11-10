@@ -1,7 +1,7 @@
 const { cwd } = require("node:process");
 
 module.exports = {
-  pwdFunc() {
-    process.stdout.write(`current directory: ${cwd()}`);
+  pwdFunc(done) {
+    done(`Current Directory: ${cwd()}`);
   },
 };
