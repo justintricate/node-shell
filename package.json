@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "import-cwd": "^3.0.0"
+  }
+}
